@@ -2,7 +2,9 @@
 title: "Hello World"
 author: "Dave Wegley"
 date: "3/5/2020"
-output: html_document
+output:
+  word_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -10,6 +12,11 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## This is a markdown file
+
+# I hope I did this right :)
+
+
+
 
 
 
